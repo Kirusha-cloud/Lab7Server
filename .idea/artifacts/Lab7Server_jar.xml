@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Lab7Server:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lab7Server_jar</output-path>
+    <root id="archive" name="Lab7Server.jar">
+      <element id="module-output" name="Lab7Server" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/log4j-api-2.11.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/log4j-core-2.11.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/postgresql-42.2.12.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

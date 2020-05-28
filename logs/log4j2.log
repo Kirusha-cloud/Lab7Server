@@ -1,0 +1,66 @@
+2020-05-28 14:20:03,096 INFO D.Database [main] Соединение с базой данных установлено.
+2020-05-28 14:20:03,361 INFO L.Server [main] Сервер запущен.
+2020-05-28 14:20:03,363 INFO H.AcceptHandler [ForkJoinPool-2-worker-1] Соединение с клиентом установлено./127.0.0.1:60633
+2020-05-28 14:20:04,609 INFO H.RequestHandler [ForkJoinPool-2-worker-1] Прочитано байт: 273
+2020-05-28 14:20:04,623 INFO H.RequestHandler [ForkJoinPool-2-worker-1] Принята команда: login
+2020-05-28 14:20:04,633 INFO H.ResponseHandler [pool-2-thread-1] Отправлен ответ: Вы успешно авторизованы.
+2020-05-28 14:20:07,206 INFO H.RequestHandler [ForkJoinPool-2-worker-1] Прочитано байт: 205
+2020-05-28 14:20:07,207 INFO H.RequestHandler [ForkJoinPool-2-worker-1] Принята команда: show_my_obj
+2020-05-28 14:20:07,207 INFO C.CommandBase [ForkJoinPool-1-worker-1] Логин пользователя : jo
+2020-05-28 14:20:07,209 INFO H.ResponseHandler [pool-2-thread-2] Отправлен ответ: Элементы, которые Вам принадлежат: 
+Name: Pali ; id: 177
+Name: Castle2 ; id: 178
+
+2020-05-28 14:20:18,164 INFO H.RequestHandler [ForkJoinPool-2-worker-2] Прочитано байт: 273
+2020-05-28 14:20:18,166 INFO H.RequestHandler [ForkJoinPool-2-worker-2] Принята команда: login
+2020-05-28 14:20:18,169 INFO H.ResponseHandler [pool-2-thread-3] Отправлен ответ: Вы успешно авторизованы.
+2020-05-28 14:20:19,321 INFO H.RequestHandler [ForkJoinPool-2-worker-2] Прочитано байт: 247
+2020-05-28 14:20:19,322 INFO H.RequestHandler [ForkJoinPool-2-worker-2] Принята команда: execute_script
+2020-05-28 14:20:19,341 INFO H.ResponseHandler [pool-2-thread-4] Отправлен ответ: Команда info: 
+Класс коллекции: class java.util.PriorityQueue
+Время создания коллекции: Thu May 28 14:20:03 MSK 2020
+Количество элементов коллекции: 3
+Элемент успешно удалён.
+
+2020-05-28 14:20:28,380 INFO H.RequestHandler [ForkJoinPool-2-worker-2] Прочитано байт: 273
+2020-05-28 14:20:28,380 INFO H.RequestHandler [ForkJoinPool-2-worker-2] Принята команда: login
+2020-05-28 14:20:28,384 INFO H.ResponseHandler [pool-2-thread-1] Отправлен ответ: Вы успешно авторизованы.
+2020-05-28 14:20:30,938 INFO H.RequestHandler [ForkJoinPool-2-worker-2] Прочитано байт: 205
+2020-05-28 14:20:30,938 INFO H.RequestHandler [ForkJoinPool-2-worker-2] Принята команда: show_my_obj
+2020-05-28 14:20:30,939 INFO C.CommandBase [ForkJoinPool-1-worker-3] Логин пользователя : jo
+2020-05-28 14:20:30,943 INFO H.ResponseHandler [pool-2-thread-2] Отправлен ответ: Элементы, которые Вам принадлежат: 
+Name: Pali ; id: 177
+
+2020-05-28 14:21:05,937 INFO H.RequestHandler [ForkJoinPool-2-worker-3] Прочитано байт: 273
+2020-05-28 14:21:05,939 INFO H.RequestHandler [ForkJoinPool-2-worker-3] Принята команда: login
+2020-05-28 14:21:05,943 INFO H.ResponseHandler [pool-2-thread-3] Отправлен ответ: Вы успешно авторизованы.
+2020-05-28 14:21:06,768 INFO H.RequestHandler [ForkJoinPool-2-worker-3] Прочитано байт: 247
+2020-05-28 14:21:06,768 INFO H.RequestHandler [ForkJoinPool-2-worker-3] Принята команда: execute_script
+2020-05-28 14:21:06,773 INFO D.Database [ForkJoinPool-1-worker-0] Добавлено в owners
+2020-05-28 14:21:06,774 INFO H.ResponseHandler [pool-2-thread-4] Отправлен ответ: Элемент успешно обновлён. Элементу изменён id, его новый id:  179
+
+2020-05-28 14:21:10,131 INFO H.RequestHandler [ForkJoinPool-2-worker-3] Прочитано байт: 273
+2020-05-28 14:21:10,132 INFO H.RequestHandler [ForkJoinPool-2-worker-3] Принята команда: login
+2020-05-28 14:21:10,134 INFO H.ResponseHandler [pool-2-thread-1] Отправлен ответ: Вы успешно авторизованы.
+2020-05-28 14:21:13,709 INFO H.RequestHandler [ForkJoinPool-2-worker-3] Прочитано байт: 205
+2020-05-28 14:21:13,709 INFO H.RequestHandler [ForkJoinPool-2-worker-3] Принята команда: show_my_obj
+2020-05-28 14:21:13,709 INFO C.CommandBase [ForkJoinPool-1-worker-0] Логин пользователя : jo
+2020-05-28 14:21:13,710 INFO H.ResponseHandler [pool-2-thread-2] Отправлен ответ: Элементы, которые Вам принадлежат: 
+Name: Frozen ; id: 179
+
+2020-05-28 14:21:30,565 INFO H.RequestHandler [ForkJoinPool-2-worker-4] Прочитано байт: 273
+2020-05-28 14:21:30,566 INFO H.RequestHandler [ForkJoinPool-2-worker-4] Принята команда: login
+2020-05-28 14:21:30,569 INFO H.ResponseHandler [pool-2-thread-3] Отправлен ответ: Вы успешно авторизованы.
+2020-05-28 14:21:31,941 INFO H.RequestHandler [ForkJoinPool-2-worker-4] Прочитано байт: 247
+2020-05-28 14:21:31,941 INFO H.RequestHandler [ForkJoinPool-2-worker-4] Принята команда: execute_script
+2020-05-28 14:21:31,942 INFO H.ResponseHandler [pool-2-thread-4] Отправлен ответ: Такого элемента нет в коллекции.
+
+2020-05-28 14:21:34,971 INFO H.RequestHandler [ForkJoinPool-2-worker-4] Прочитано байт: 273
+2020-05-28 14:21:34,972 INFO H.RequestHandler [ForkJoinPool-2-worker-4] Принята команда: login
+2020-05-28 14:21:34,974 INFO H.ResponseHandler [pool-2-thread-1] Отправлен ответ: Вы успешно авторизованы.
+2020-05-28 14:21:37,881 INFO H.RequestHandler [ForkJoinPool-2-worker-4] Прочитано байт: 205
+2020-05-28 14:21:37,881 INFO H.RequestHandler [ForkJoinPool-2-worker-4] Принята команда: show_my_obj
+2020-05-28 14:21:37,881 INFO C.CommandBase [ForkJoinPool-1-worker-1] Логин пользователя : jo
+2020-05-28 14:21:37,882 INFO H.ResponseHandler [pool-2-thread-2] Отправлен ответ: Элементы, которые Вам принадлежат: 
+Name: Frozen ; id: 179
+
